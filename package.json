@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Marketing site for Life and Blood, a Flesh and Blood TCG life counter.",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

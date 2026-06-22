@@ -1,0 +1,19 @@
+node_modules
+dist
+dist-ssr
+*.local
+*.tsbuildinfo
+.playwright-mcp
+
+# Apple/Google badge source pack — only the two badges we use live in public/
+app-store-files
+
+# Local tooling / personal settings
+.claude/settings.local.json
+*.stackdump
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

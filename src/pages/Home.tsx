@@ -207,18 +207,15 @@ export default function Home() {
 
       {/* ── Support ──────────────────────────────────────────────────── */}
       <section className="mx-auto max-w-2xl px-6 py-24 text-center">
-        <h2 className="font-display text-3xl tracking-tight sm:text-4xl">
-          Made by one person
-        </h2>
         <p className="mt-4 text-lg text-bone/85">
-          {APP.name} is free. If it's earned a spot at your table, you can buy
-          me a coffee.
+          {APP.name} is free to use and always will be. If you appreciate it
+          enough,
         </p>
         <a
           href={LINKS.koFi}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-8 inline-flex items-center gap-2 rounded-xl bg-amber px-7 py-4 font-semibold text-ink transition-transform duration-150 hover:-translate-y-0.5"
+          className="mt-8 inline-flex items-center gap-2 bg-amber px-7 py-4 font-semibold text-ink transition-transform duration-200 ease-out hover:-translate-y-1 hover:-rotate-3 hover:scale-110 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-amber"
         >
           ☕ Buy me a Ko-fi
         </a>

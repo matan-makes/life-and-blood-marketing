@@ -17,18 +17,17 @@ export default function Privacy() {
 
         <div className="mt-8 space-y-6 leading-relaxed text-bone/90">
           <p className="rounded-2xl border border-teal/30 bg-teal/10 p-5 text-bone">
-            <strong>The short version:</strong> {APP.name} does not collect,
-            store, or share any personal data. There's nothing to worry about.
+            <strong>TLDR;</strong> {APP.name} does not collect, store, or share
+            any personal data.
           </p>
 
           <section>
             <h2 className="font-display text-xl font-bold text-amber">
-              What we collect
+              What is collected
             </h2>
             <p className="mt-2">
-              Nothing. {APP.name} has no accounts, no sign-up, and no analytics.
-              We do not track you, and we have no servers that receive your
-              information.
+              Nothing. {APP.name} has no accounts and no analytics. We do not
+              track you, and we have no servers that receive your information.
             </p>
           </section>
 
@@ -37,8 +36,8 @@ export default function Privacy() {
               Where your data lives
             </h2>
             <p className="mt-2">
-              Anything the app remembers — your settings, chosen heroes, and
-              match history — is stored only on your own device. It never leaves
+              Anything the app remembers like your settings, chosen heroes, and
+              match history is stored only on your own device. It never leaves
               your phone, and deleting the app removes it.
             </p>
           </section>
@@ -52,25 +51,6 @@ export default function Privacy() {
               Links to outside sites (such as hero databases or the Ko-fi
               donation page) open in your browser and are governed by their own
               privacy policies.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="font-display text-xl font-bold text-amber">Children</h2>
-            <p className="mt-2">
-              Because the app collects no data from anyone, it collects no data
-              from children either.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="font-display text-xl font-bold text-amber">
-              Changes to this policy
-            </h2>
-            <p className="mt-2">
-              If this ever changes, the updated policy will be posted on this
-              page. Since the app is built around collecting nothing, we don't
-              expect that to happen.
             </p>
           </section>
         </div>
